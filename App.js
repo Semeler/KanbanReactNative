@@ -1,9 +1,9 @@
-// Localização: /App.js
 
-import 'react-native-gesture-handler'; // IMPORTANTE: Deve ser a primeira linha
+
+import 'react-native-gesture-handler'; 
 import React from 'react';
 import { StyleSheet, Text, SafeAreaView, StatusBar } from 'react-native';
-import KanbanBoard from './components/KanbanBoard.android'; // Importa o componente KanbanBoard
+import KanbanBoard from './components/KanbanBoard';
 
 export default function App() {
   return (
